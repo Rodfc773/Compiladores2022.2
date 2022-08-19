@@ -76,9 +76,13 @@ void Sf(std:: string cadeia, int pos, bool &verify, int tam){
     {
         std:: cout << "letra em Sf: " << cadeia[pos]  << std:: endl;
 
-        if ((cadeia[pos] != 'c' or cadeia[pos] != 'a') or cadeia[pos] !='b')
+        if ((cadeia[pos] == 'c' or cadeia[pos] == 'a') or cadeia[pos] =='b')
         {
+            verify = true;
+        }
+        else{
             verify = false;
+            return; 
         }
         Sf(cadeia, pos + 1, verify, tam);
     }
