@@ -2,6 +2,6 @@
 
 ### Conteúdos: 
 
-* Códigos de resolução de exercíci
+* Códigos de resolução de exercícios
 * Exemplos de algoritmos dados em sala de aula
 
