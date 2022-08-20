@@ -22,7 +22,8 @@ int main(){
     {
         std:: cout << "A Cadeia: " << cadeia_char << " , é válida!!" << std:: endl;
     }
-    else{
+    else
+    {
 
         std:: cout << "A Cadeia: " << cadeia_char << " , não é válida!!" << std:: endl;
 
